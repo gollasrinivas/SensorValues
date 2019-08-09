@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:orientation="vertical" android:layout_weight="9">
+    <Button android:layout_width="match_parent" android:layout_height="50dp"
+   android:background="#00dd55"
+   android:text="@string/getvalues"
+            android:onClick="getvalues"
+            android:textSize="20sp"
+            android:id="@+id/getDetails"
+            android:padding="10dp"
+    android:layout_marginBottom="30dp"
+    />
+    <ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content">
+<HorizontalScrollView android:layout_height="wrap_content" android:layout_width="wrap_content">
+<TableLayout android:layout_width="wrap_content"
+             android:id="@+id/main_table"
+             android:layout_height="wrap_content">
+
+    <TableRow >
+        <TextView
+        android:layout_weight="1"
+        android:text="ID"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold|italic"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif"
+        android:layout_width="120dp"
+        />
+        <TextView
+                android:layout_weight="1"
+                android:text="TIME"
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold|italic"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif"
+                android:layout_width="120dp"
+        />
+        <TextView
+                android:layout_weight="1"
+                android:text="TEST"
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold|italic"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif"
+                android:layout_width="120dp"
+        />
+        <TextView
+        android:layout_weight="1"
+        android:text="ACC_X"
+        android:layout_width="120dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold|italic"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif"/>
+        <TextView
+        android:layout_weight="1"
+        android:text="ACC_Y"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold|italic"
+        android:textSize="15sp"
+        android:layout_width="120dp"
+        android:fontFamily="sans-serif"/>
+        <TextView
+        android:layout_weight="1"
+        android:text="ACC_Z"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold|italic"
+        android:textSize="15sp"
+        android:layout_width="120dp"
+        android:fontFamily="sans-serif"/>
+        <TextView
+        android:layout_weight="1"
+        android:text="GYRO_X"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold|italic"
+        android:textSize="15sp"
+        android:layout_width="120dp"
+        android:fontFamily="sans-serif"/>
+
+        <TextView android:layout_weight="1"
+                  android:text="GYRO_Y"
+                  android:textColor="@android:color/holo_red_dark"
+                  android:textStyle="bold|italic"
+                  android:textSize="15sp"
+                  android:layout_width="120dp"
+                  android:fontFamily="sans-serif"/>
+        <TextView
+        android:layout_weight="1"
+        android:text="GYRO_Z"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold|italic"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif"
+        android:layout_width="120dp"/>
+
+
+    </TableRow>
+
+
+</TableLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+</LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <Button android:layout_width="match_parent" android:layout_height="50dp"
+                android:background="#00dd55"
+                android:text="Take other test"
+                android:onClick="take_test"
+                android:textSize="20sp"
+                android:id="@+id/take_test"
+                android:padding="10dp"
+                android:layout_marginBottom="30dp"
+        />
+    </LinearLayout>
+</LinearLayout>

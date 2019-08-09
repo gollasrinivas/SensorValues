@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">dataBase1</string>
+    <string name="getvalues">getValues</string>
+    <string name="zero">0</string>
+    <string name="accx_gyrox">accX ::: gyroX</string>
+    <string name="accy_gyroy">accY ::: gyroY</string>
+    <string name="start">start</string>
+    <string name="stop">stop</string>
+    <string name="table">Table</string>
+    <string name="test">Test</string>
+    <string name="_0">0</string>
+</resources>
